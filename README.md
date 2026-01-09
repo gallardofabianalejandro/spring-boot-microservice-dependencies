@@ -49,6 +49,9 @@ Este POM incluye las siguientes dependencias principales:
 ### Testing
 - **spring-boot-starter-test**: Dependencias para testing con Spring Boot
 
+### Construcción de Imágenes Docker
+- **jib-maven-plugin**: Plugin Google Jib para construcción optimizada de imágenes Docker sin Docker daemon
+
 ## Configuración
 
 La mayoría de las dependencias están preconfiguradas con versiones compatibles. Para versiones específicas, consulte las propiedades definidas en el POM padre (`spring-boot-master-parent`).
@@ -76,3 +79,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - MapStruct para mapeo de objetos DTO
 - Spring Boot DevTools para desarrollo
 - Spring Boot Test Starter para testing
+- Google Jib Maven Plugin para construcción optimizada de imágenes Docker
